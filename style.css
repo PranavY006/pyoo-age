@@ -1,0 +1,17 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: linear-gradient(to top, #d3d3d3, #f0f0f0);
+}
+
+.container {
+  display: flex;
+  padding-top: 20%;
+  padding-left: 32%;
+}
+
+
+.age-number{
+  font-size: 2em;
+  font-weight: bold;
+  color: #333;
+}
