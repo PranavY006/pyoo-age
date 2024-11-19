@@ -1,6 +1,8 @@
 body {
   font-family: system-ui, sans-serif;
   background: linear-gradient(to top, #d3d3d3, #f0f0f0);
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
@@ -22,16 +24,14 @@ body {
 
 .footer {
   display: flex;
-  flex: 1;
-  height: 40vh;
   justify-content: flex-end; 
-  align-items: flex-end;
   padding: 10px;
 }
 .github-link{   
     background: -webkit-linear-gradient(#747373, #333);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding: 15px;
     
  }
 
@@ -47,9 +47,9 @@ body {
     align-items: center; /* Center vertically on mobile */
   }
   .container {
-    display: flex;
-    padding-top: 20%;
-    padding-left: 6.9%;
+    flex-direction: row;
+    padding-top: 30%;
+    padding-left: 15%;
   }
   .age-number{
     font-size: 1.5em;
