@@ -5,10 +5,14 @@ body {
 
 .container {
   display: flex;
+  flex:1;
   padding-top: 20%;
   padding-left: 32%;
 }
 
+.age-title {
+  color: #333;
+}
 
 .age-number{
   font-size: 2em;
@@ -18,6 +22,7 @@ body {
 
 .footer {
   display: flex;
+  flex: 1;
   height: 40vh;
   justify-content: flex-end; 
   align-items: flex-end;
