@@ -18,9 +18,10 @@ body {
 
 .footer {
   display: flex;
-  justify-content: right;
-  padding-top: 25%;
-  padding-right: 2%;
+  height: 40vh;
+  justify-content: flex-end; 
+  align-items: flex-end;
+  padding: 10px;
 }
 .github-link{   
     background: -webkit-linear-gradient(#747373, #333);
@@ -33,4 +34,21 @@ body {
   background: -webkit-linear-gradient(#000, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    justify-content: center; /* Center horizontally on mobile */
+    align-items: center; /* Center vertically on mobile */
+  }
+  .container {
+    display: flex;
+    padding-top: 20%;
+    padding-left: 6.9%;
+  }
+  .age-number{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+  }
 }
